@@ -1,0 +1,27 @@
+.form-control {
+  margin: 0.5rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #2d4263;
+  font: inherit;
+  padding: 0.5rem;
+}
+
+.form-control input:focus {
+	outline: none;
+}
+
+.form-control.invalid input {
+	border-color: red;
+	background-color: #ffd7d7;
+}

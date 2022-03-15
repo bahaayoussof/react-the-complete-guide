@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Cairo", sans-serif;
+	background-color: #313131;
+}
+
+body {
+	margin: 0;
+}

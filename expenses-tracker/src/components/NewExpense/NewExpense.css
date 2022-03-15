@@ -1,0 +1,47 @@
+.new-expense {
+    background-color: #5C5470;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-expense button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #2A2438;
+    background-color: #2A2438;
+    color: #eee;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.new-expense button:hover,
+.new-expense button:active {
+    background-color: #352F44;
+    border-color: #352F44;
+}
+
+.new-expense button.alternative {
+    color: #013e55;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.new-expense button.alternative:hover, 
+.new-expense button.alternative:active {
+    background-color: #8AC3D5;
+}

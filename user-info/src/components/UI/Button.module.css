@@ -1,0 +1,30 @@
+.button {
+	width: auto;
+	background-color: #d85462;
+	padding: 0.5rem 2.5rem;
+	margin-top: 0.2rem;
+	border: none;
+	color: #fff;
+	font: inherit;
+	cursor: pointer;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.button:hover,
+.button:active {
+	background-color: #eb6c79;
+}
+
+.button:focus {
+	outline: none;
+}
+
+/* @media screen and (max-width: 768px) {
+	.button {
+		width: 100%;
+	}
+} */
